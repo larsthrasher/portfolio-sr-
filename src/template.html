@@ -1,301 +1,293 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Lars Thrasher Development</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="Software Engineering" content="Lars Thrasher | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
 
-    <!-- Remove this script once you setup your custom portfolio -->
+  <title>Lars Thrasher Development</title>
+  <meta name="keywords" content="Software Engineer, Lars Thrasher , React" />
+  <meta name="description" content="Lars Thrasher Development" />
 
-  </head>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: false
+    });
+  </script>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, I'm <span class="text-color-main">Lars Thrasher</span>
-          <br />
-          Software Engineer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">And...</a>
-        </p>
+
+</head>
+
+
+<div id="top"></div>
+
+<!-- **** Hero Section **** -->
+<div id="hero" class="jumbotron">
+  <div class="container">
+    <h1 class="hero-title" class="load-hidden">
+      <span class="text-color-main">Lars</span>
+      <br />
+      Thrasher
+    </h1>
+    <p class="hero-cta" class="load-hidden">
+      <a class="cta-btn cta-btn--hero" href="#about">Development</a>
+    </p>
+  </div>
+</div>
+<!-- /END Hero Section -->
+
+<!-- **** About Section **** -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">
+      About me
+    </h2>
+    <div class="row about-wrapper">
+      <div class="col-md-6 col-sm-12">
+        <div class="about-wrapper__image">
+          <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg" alt="Profile Image" />
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            Freelance Software Engineer in search of professional growth and new opportunities. <br />
+            Proficient in React, NextJs, Angular, Material, Firebase, MongoDb, Python, RoR as well as
+            a variety of emerging technologies.
+          </p>
+          <p class="about-wrapper__info-text">
+            Avid cyclist/outdoors type. Cat owner.
+          </p>
+          <p class="about-wrapper__info-text">
+            What is your message?
+            How can my skills be helpful?
+          </p>
+          <span class="d-flex mt-3">
+            <a target="_blank" class="cta-btn cta-btn--resume" href="https://resume.creddle.io/resume/7slrj231pw6">
+              Resume
+            </a>
+          </span>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </div>
+</section>
+<!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
-        </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I build stellar works of communication
+<!-- **** Projects Section **** -->
+<section id="projects">
+  <div class="container">
+    <div class="project-wrapper">
+      <h2 class="section-title dark-blue-text">
+        Projects
+      </h2>
+      <!-- Each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Mr. Pizza</h3>
+            <div>
+              <p class="mb-4">
+                Restaurant Ordering App <br />
+                built with React Hooks,
+                Firebase, and Styled-Components.
               </p>
-              <p class="about-wrapper__info-text">
-                with Javascript, Python, React, Redux, NextJs, Django, Bootstrap, and Material.
+            </div>
+            <a target="_blank" class="cta-btn cta-btn--hero" href="https://mr-pizza-bec22.web.app/">
+              Live
+            </a>
+            <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/Mr.Pizza">
+              Code
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image">
+            <a href="https://mr-pizza-bec22.web.app/" target="_blank">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/mrpizza.png" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /END Project -->
+      <!-- Each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Stoopfront</h3>
+            <div>
+              <p class="mb-4">
+                New York reduce and reuse site. Built with Next.js and Material UI.
               </p>
-              <p class="about-wrapper__info-text">
-                What is your message?
-                How can my skills be helpful?
+            </div>
+            <a target="_blank" class="cta-btn cta-btn--hero" href="http://stoopfront.com/">
+              Live
+            </a>
+            <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/Stoopfront">
+              Code
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image">
+            <a href="http://stoopfront.com/" target="_blank">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/sfbrand.png" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /END Project -->
+
+      <!-- Each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Cosmic Prices</h3>
+            <div>
+              <p class="mb-4">
+                Fullstack e-commerce app, <br />
+                built with React, Node, Stripe,
+                and firebase.
               </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://resume.creddle.io/resume/7slrj231pw6">
-                  Resume
-                </a>
-              </span>
             </div>
+            <a target="_blank" class="cta-btn cta-btn--hero" href="https://cosmic-prices.herokuapp.com/">
+              Live
+            </a>
+            <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/Cosmic-Prices">
+              Code
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image">
+            <a href="https://cosmic-prices.herokuapp.com/" target="_blank">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/cosmic.png" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
+      <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">funschit.com</h3>
-                <div>
-                  <p class="mb-4">
-                    Cycling and miscellanous events page built with React and Firebase, styled with Material UI.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://funschit.com">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/funschit">
-                  Source Code
-                </a>
-              </div>
+      <!-- Each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Funschit</h3>
+            <div>
+              <p class="mb-4">
+                Cycling and miscellanous events page
+                built with React and Firebase,
+                styled with Material UI.
+              </p>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://funschit.com" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/funschit.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
+            <a target="_blank" class="cta-btn cta-btn--hero" href="https://funschit-77ebc.web.app/">
+              Live
+            </a>
+            <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/funschit">
+              Code
+            </a>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">burgertown.online</h3>
-                <div>
-                  <p class="mb-4">
-                    Responsive burger application ft. React + Redux, hosted by firebase.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://burgertown.online">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/Burgertown">
-                  Source Code
-                </a>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image">
+            <a href="https://funschit-77ebc.web.app/" target="_blank">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/funschit.png" />
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://burgertown.online" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/burgertown.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
+            </a>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">mrpizzasolutions.com</h3>
-                <div>
-                  <p class="mb-4">
-                    Restaurant Ordering App built with React Hooks, Firebase, and Styled-Components. Intended for desktop use.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://mrpizzasolutions.com">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/MrPizza">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://mrpizzasolutions.com" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/mrpizza.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">stoof.online</h3>
-                <div>
-                  <p class="mb-4">
-                    E-commerce site, MERN stack, featuring Next.js and Material UI.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://stoof.online/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/stoof">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://stoof.online/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/stoof.online.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">stoopfront.com</h3>
-                <div>
-                  <p class="mb-4">
-                  New York reduce and reuse site.  Built with Next.js and Material UI.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://stoopfront.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/Stoopfront">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://stoopfront.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/sfbrand.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
         </div>
       </div>
-    </section>
-    <!-- /END Projects Section -->
+      <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            Let's build something together!
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:larsthrasher@gmail.com"
-            >Email</a
-          >
+      <!-- Each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Burgertown</h3>
+            <div>
+              <p class="mb-4">
+                Responsive burger application ft. React + Redux, hosted by firebase.
+              </p>
+            </div>
+            <a target="_blank" class="cta-btn cta-btn--hero" href="https://burgertown-5af90.web.app/">
+              Live
+            </a>
+            <a target="_blank" class="cta-btn text-color-main" href="https://github.com/larsthrasher/Burgertown">
+              Code
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image">
+            <a href="https://burgertown-5af90.web.app/" target="_blank">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/burgertown.png" />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- /END Contact Section -->
+      <!-- /END Project -->
+    </div>
+  </div>
+</section>
+<!-- /END Projects Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://www.facebook.com/profile.php?id=5238991" target="_blank">
-            <i class="fa fa-facebook fa-inverse"></i>
-          </a>
-          <a href="https://www.instagram.com/larsthrasher" target="_blank">
-            <i class="fa fa-instagram fa-inverse"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/lars-thrasher-88745b51/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/larsthrasher" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
+<!-- **** Contact Section **** -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">
+      Contact
+    </h2>
+    <div class="contact-wrapper">
+      <p class="contact-wrapper__text">
+        Let's build something!
+      </p>
+      <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:larsthrasher@gmail.com">Let's</a>
+    </div>
+  </div>
+</section>
+<!-- /END Contact Section -->
 
-        <hr />
+<!-- **** Footer Section **** -->
+<footer class="footer navbar-static-bottom">
+  <div class="container">
+    <a href="#top" class="back-to-top">
+      <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+    </a>
+    <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=5238991" target="_blank">
+        <i class="fa fa-facebook fa-inverse"></i>
+      </a>
+      <a href="https://www.instagram.com/larsthrasher" target="_blank">
+        <i class="fa fa-instagram fa-inverse"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/lars-thrasher-88745b51/" target="_blank">
+        <i class="fa fa-linkedin fa-inverse"></i>
+      </a>
+      <a href="https://github.com/larsthrasher" target="_blank">
+        <i class="fa fa-github fa-inverse"></i>
+      </a>
+    </div>
 
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
-  </html>
+    <hr />
+
+  </div>
+</footer>
+<!-- /END Footer Section -->
+</body>
+
+</html>
